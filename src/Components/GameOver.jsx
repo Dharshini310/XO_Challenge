@@ -4,7 +4,7 @@ function GameOver({gameState}) {
     switch(gameState){
         case GameState.inProgress:
             return <></>;
-        case GameState.playerOwins:
+        case GameState.payerOwins:
             return <div className="game-over">O wins</div>
         case GameState.playerXwins:
             return <div className="game-over">X wins</div>
